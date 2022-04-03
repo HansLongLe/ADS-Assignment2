@@ -20,7 +20,7 @@ public class BinaryTreeNode <E extends Comparable> {
 
     public void setElement(E element)
     {
-         this.element = element;
+        this.element = element;
     }
 
     public E getElement()

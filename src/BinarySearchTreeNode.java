@@ -1,4 +1,8 @@
-public class BinarySearchTreeNode <E>{
+public class BinarySearchTreeNode <E extends Comparable> {
 
     private E element;
+
+
+
+
 }
