@@ -13,6 +13,11 @@ public class BinaryTree<E extends Comparable>
         root = new BinaryTreeNode();
     }
 
+    public BinaryTree(BinaryTreeNode node)
+    {
+        root = node;
+    }
+
     public BinaryTreeNode getRoot()
     {
         return root;
@@ -167,7 +172,7 @@ public class BinaryTree<E extends Comparable>
         return temp;
     }
 
-    public int height(BinaryTreeNode node)
+    private int height(BinaryTreeNode node)
     {
         int left = 0;
         int right = 0;
